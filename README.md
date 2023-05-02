@@ -1,4 +1,5 @@
 # DEBUG
+* It includes debug.h and destructor.c.
 
 # Usage
 ```C
