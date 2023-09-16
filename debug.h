@@ -6,7 +6,11 @@
 #include <sys/time.h>
 
 #define	TESTn(i) printf("[(%s/%d) %s ]%s:%ld\n", __FILE__, __LINE__, __func__, #i, (long)(i)); fflush(stdin);
+#define TEST(i) printf("[%s]%s:%ld\n", __func__, #i, (long)(i)); fflush(stdin);
 #define	STOP {char c; read(STDIN_FILENO, &c, sizeof(char));}
 #define FUNC printf(" >>%s\n", __func__);
 
 #endif
+
+
+
